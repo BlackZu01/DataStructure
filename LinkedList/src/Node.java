@@ -9,6 +9,6 @@ public class Node {
 
     @Override
     public String toString() {
-        return "[data: "+this.data+" next: " +this.next+ "]";
+        return "[data: " +this.data+ " next: " +this.next+ "]";
     }
 }
