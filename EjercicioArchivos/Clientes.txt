@@ -1,0 +1,4 @@
+10	Moises	230200
+11	Maria	52500
+12	Jesus	240000
+13	Sebastian	300000
