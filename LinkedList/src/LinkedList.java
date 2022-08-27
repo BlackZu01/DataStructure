@@ -19,7 +19,7 @@ public class LinkedList {
         this.tail = node;
     }
 
-    public void EscribirLista () {      
+    public void ShowList () {      
         Node p = this.Root;
 
         while (p != null) {

@@ -14,7 +14,7 @@ public class App {
         lista.AddNode("Gabriela");
         lista.AddNode("Steven");
 
-        lista.EscribirLista();
+        lista.ShowList();
         System.out.println(node);
     }
 }
