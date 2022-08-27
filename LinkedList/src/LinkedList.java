@@ -1,5 +1,4 @@
 public class LinkedList {
-    
     Node Root;
     Node tail;
 
@@ -11,17 +10,16 @@ public class LinkedList {
     public void AddNode (String data) {
         Node node = new Node(data);
 
-        if (this.Root == null) {
-            this.Root = node;
-            this.tail = node;
-
-        } else {
+        if (this.Root != null) {
             tail.next = node;
             tail = node;
+            return;
         }
+        this.Root = node;
+        this.tail = node;
     }
 
-    public void EscribirLista () {
+    public void EscribirLista () {      
         Node p = this.Root;
 
         while (p != null) {
