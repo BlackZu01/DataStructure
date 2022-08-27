@@ -23,7 +23,7 @@ public class LinkedList {
         Node p = this.Root;
 
         while (p != null) {
-            System.out.print(p.data+ " -> ");
+            System.out.print(p.data+ " --> ");
             p = p.next;
         }
         System.out.println("null");
